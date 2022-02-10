@@ -14,7 +14,6 @@ function removeThird() {
 	let elementList = document.querySelectorAll(".wrapper__task3");
 	elementList[0].classList.remove("active");
 }
-
 function removeActive(){
 	removeTest();
 	removeFirst();
@@ -26,7 +25,6 @@ function removeActive(){
 function showTest() {
 	let elementList = document.querySelectorAll(".wrapper__test");
 	elementList[0].classList.add("active");
-	
 	removeActive();
 	showTest();
 }
